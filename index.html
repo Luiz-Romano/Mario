@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros Plumbing</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="mario header">
+        <a href="./index.html">Home</a>
+        <a href="./nossos-servicos.html">Nossos Serviços</a>
+        <a href="">Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="Logo do Mario Bros" class="logo-mario">
+            <p>Encanadores Mario & Luigi - Resolvendo seus problemas com estilo!</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos
+                ou
+                torneiras que não param de pingar? Não se preocupe, poque estamos aqui para salvar o dia! Apresentamos a
+                vocês
+                os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <a href="https://wa.me/5511942297395?text=Oi%2C%20pode%20me%20ajudar%3F!" class="link-whatsapp">
+                <img src="./img/whatsapp.png" alt="whatsapp logo">
+            </a>
+
+            <button class="botao-entre-contato" onclick="mostrarForm()">Entre em Contato</button>
+
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="Mario e Luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+
+    <!--
+        usado formcarry para receber o formulario (depois de 'class')
+        action="https://formcarry.com/s/o2izJYami9z" method="POST" enctype="multipart/form-data" 
+        <input placeholder="Nome:" type="text" name="nome">
+        <input placeholder="Email:" type="tel" name="telefone">
+        <textarea placeholder="Observações:" name="observações"></textarea>
+        <button class="formulario-botao" type="submit">Enviar</button>
+    -->
+
+    <form class="formulario-fale-conosco">
+        <h2 class="formulario-titulo">Entre em contato:</h2>
+        <input placeholder="Nome:" type="text" name="nome">
+        <input placeholder="Email:" type="tel" name="telefone">
+        <textarea placeholder="Observações:" name="observações"></textarea>
+        <button class="formulario-botao" type="submit">Enviar</button>
+    </form>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
