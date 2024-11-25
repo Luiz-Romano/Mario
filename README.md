@@ -9,6 +9,6 @@
   <p>- CSS</p>
   <p>- JS</p>
 <br> 
-Desktop: <img src="[https://github.com/Luiz-Romano/easy-shopping/blob/main/assets/desktop.png?raw=true](https://raw.githubusercontent.com/Luiz-Romano/pumbling-co./refs/heads/main/img/desktop.png)" />
+Desktop: <img src="https://raw.githubusercontent.com/Luiz-Romano/pumbling-co./refs/heads/main/img/desktop.png" />
 <br>
-Mobile: <img src="[https://github.com/Luiz-Romano/easy-shopping/blob/main/assets/mobile.png?raw=true](https://raw.githubusercontent.com/Luiz-Romano/pumbling-co./refs/heads/main/img/mobile.png)" />
+Mobile: <img src="https://raw.githubusercontent.com/Luiz-Romano/pumbling-co./refs/heads/main/img/mobile.png" />
